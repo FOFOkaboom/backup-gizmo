@@ -14,7 +14,7 @@ Define basic linux/windows system
 * Multi OS zip/crypt client (7zip?)
 
 ## Conditions
-* Must be python
+* Must be python, must be modular
 * Must have centralized managemend
 * Keys must be stored centralized
 * Authentication and authorization unique per system
