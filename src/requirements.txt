@@ -1,0 +1,6 @@
+Requirements:
+pip install --upgrade pip
+python3
+ssl
+configparser
+smtplib
