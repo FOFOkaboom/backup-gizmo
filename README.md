@@ -24,22 +24,22 @@ Define basic linux/windows system
 * Archived (encrypted) files must be decryptable/decompressable on any OS. 
 
 ## Functions
-* [F01] Setup unattended SFTP server 
-* [F02] Setup unattended SFTP Client
-* [F03] Setup unattended SSH Client
-* [F04] Sync with DropBox pull
-* [F05] Sync with DropBox push
-* [F06] Sync with SFTP pull 
-* [F07] Sync with SFTP push 
-* [F08] Sync with (rsync via SSH) pull 
-* [F09] Sync with (rsync via SSH) push 
-* [F10] Encrypt files while performing push
-* [F11] Decrypt files while performing pull
-* [F12] Email notification
-* [F13] Push new encryption keys to clients
-* [F14] Configure Basic system (linux)
-* [F15] Configure Basic system (Windows)
-* [F16] Share files publicly via github
+* [F01] [ ] Setup unattended SFTP server 
+* [F02] [ ] Setup unattended SFTP Client
+* [F03] [ ] Setup unattended SSH Client
+* [F04] [ ] Sync with DropBox pull
+* [F05] [ ] Sync with DropBox push
+* [F06] [ ] Sync with SFTP pull 
+* [F07] [ ] Sync with SFTP push 
+* [F08] [ ] Sync with (rsync via SSH) pull 
+* [F09] [ ] Sync with (rsync via SSH) push 
+* [F10] [ ] Encrypt files while performing push
+* [F11] [ ] Decrypt files while performing pull
+* [F12] [X] Email notification
+* [F13] [ ] Push new encryption keys to clients
+* [F14] [ ] Configure Basic system (linux)
+* [F15] [ ] Configure Basic system (Windows)
+* [F16] [ ] Share files publicly via github
 
 ## Roadmap
 TBD
