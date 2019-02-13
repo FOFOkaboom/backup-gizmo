@@ -26,7 +26,10 @@ class Initializer(object):
 
         # Update apt repository
         command = 'apt update -y'
-        os.system('echo %s| sudo -S %s' % (sudo_pw, command))
+        try:
+            os.system('echo %s| sudo -S %s' % (sudo_pw, command))
+        except OSError as e:
+            print('An error occured during "$ sudo apt update -y" [{}]').format(e)  
 
         # Install ssh package
         command = 'apt install ssh -y'
@@ -35,6 +38,7 @@ class Initializer(object):
         except OSError as e:
             print('An error occured during "$ sudo apt install ssh -y" [{}]').format(e)
 
+            
         # Configure SSHD
         # TODO Configure SSHD
         # TODO autostart SSH service on boot
