@@ -81,28 +81,6 @@ class Initializer(object):
         except:
             print('An error occured during ssh "sudo service ssh reload" while installing ssh')
 
-
-        # TODO Host based firewall activation/verification?
-
-        # pkg_name = "ssh"
-        #
-        # cache = apt.cache.Cache()
-        # cache.update()
-        # cache.open()
-        #
-        # pkg = cache[pkg_name]
-        # if pkg.is_installed:
-        #     print("{} already installed").format(pkg_name=pkg_name)
-        # else:
-        #     pkg.mark_install()
-        # try:
-        #     cache.commit()
-        # except OSError as e:
-        #     print('During the SSH installation the SSH installation failed [{}]').format(e)
-
-        # Configureren van SSHD
-        pass
-
     def setup_ssh(self):
         pass
 
