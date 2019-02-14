@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import configparser
 import os
-import time
 
 class Initializer(object):
     """
@@ -73,7 +72,6 @@ class Initializer(object):
         self.config_sshd()
 
          # Reload sshd config
-        time.sleep(1)
         try:
             command = "service ssh restart > /dev/null 2>&1"
             os.system('echo %s| sudo -S %s' % (self.sudo_pw, command))
